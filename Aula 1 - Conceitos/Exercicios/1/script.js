@@ -23,3 +23,18 @@ const frases = [
     "O bom-senso vai mais longe do que muito conhecimento.",
 ]
 
+// $(document).ready(function(){
+
+//   $('biscoito').click('frases')
+//   $('biscoito').toggle('.message')
+//    alert('.message')
+// })
+
+// })
+
+$('.biscoito').click(function(){
+  
+    let indexDaFrase = Math.floor(Match.random() * frases.length)
+      $('#message').text(frases[indexDaFrase])
+    
+}) 
