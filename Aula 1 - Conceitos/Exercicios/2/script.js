@@ -7,9 +7,9 @@
   - Extra: Modifiquem o estilo da página para ela ficar com a sua cara!
 */
 
-$(document).ready(function(changeBg){
+$(document).ready(function(){
 
-  $('#botao').click(function(){
+    $('#botao').click(function(){
       $('body').css('background', 'black')
       $('h1')
         .css('color', 'white')
