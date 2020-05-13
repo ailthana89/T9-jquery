@@ -9,16 +9,14 @@ do input deve completar a frase.
 */
     $(document).ready(function(){
         
-        $('#campo-nome').text('#texto-replicado', '')
+        $('campo-nome').keyup(function() {
+            $(this).val() 
+
+            
+
+
+
         
-            
-            
-            
-            
+
         })
-
-
-
-        
-
-
+        })
