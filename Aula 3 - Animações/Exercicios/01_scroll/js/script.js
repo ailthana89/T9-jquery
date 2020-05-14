@@ -8,5 +8,35 @@
     2. Criar o botão de scroll até o topo da página. Lembrando que esse botão só deve aparecer 
     a partir do momento que o scroll começou a ir para baixo. 
 
-
 */
+
+
+$(document).ready(function() {
+
+
+    $(".link1").click(function() {
+        $("html, body").stop().animate({
+        scrollTop: $("#h1").offset().top
+    },
+    2000
+    );
+})
+    $(".link2").click(function() {
+        $("html, body").animate({
+        scrollTop: $("#h2").offset().top
+    },
+    2000
+    );
+})
+    $(".link3").click(function() {
+        $("html, body").animate({
+        scrollTop: $("#h3").offset().top
+    },
+    2000
+    );
+})
+    
+
+})
+
+
